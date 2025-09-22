@@ -3,15 +3,15 @@
 (defn foo
   [bar]
   (cond (nil? bar)
-        true
+    true
 
-        (zero? bar)
-        true
+    (zero? bar)
+    true
 
-        :else
-        bar))
+    :else
+    bar))
 
 (defn bar []
   (do (prn "fi")
-      (prn "fo")
-      (prn "fum")))
+    (prn "fo")
+    (prn "fum")))
